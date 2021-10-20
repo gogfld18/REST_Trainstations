@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TrainStations</title>
+    <script src="trains.js"></script>
+</head>
+<body>
+    <h1>List all Trains</h1>
+    <button onclick="getAllTrains()">All Trains</button>
+    <div id="allTrains"></div>
+
+    <h1>List of Stations</h1>
+    <a>ID: </a><input type="number" id="trainId"><button onclick="getStations(trainId)">Stations</button>
+    <div id="stations"></div>
+
+    <h1>Add Train</h1>
+    <a>ID: </a><input type="number" id="trainIdAdd"/><input type="text" id="trainTypeAdd"/><button onclick="addTrain(trainIdAdd, trainTypeAdd)">Add Train</button>
+
+    <h1>Add Station</h1>
+    <a>ID: </a><input type="number" id="trainIdAdd1"/><input type="text" id="trainStation"/><button onclick="addStation(trainIdAdd1, trainStation)">Add Station</button>
+</body>
+</html>
